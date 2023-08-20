@@ -29,3 +29,16 @@ def workdir_view(request):
     rez = sorted(os.listdir(path))
     msg = f"Список файлов в рабочей директории: {rez}"
     return HttpResponse(msg)
+
+
+def hello_view(request):
+    return render(request, 'app/hello.html')
+    # name = request.GET.get('name')
+    # age = int(request.GET.get('age', 20))
+    # print(age)
+    # return HttpResponse(f'hello, {name}')
+
+
+def sum_view(request, a, b):
+    result = a + b
+    return HttpResponse(result)
