@@ -5,11 +5,3 @@ DB_USER=
 DB_PASSWORD=
 DB_HOST=
 DB_PORT=
-
-SECRET_KEY=django-insecure-9m2%u2yq=+#)6c#^j7^1p+@mpiob-r)9ki+zrv%*ad779fz89l
-DEBUG=True
-DB_NAME=netology_smart_home
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_HOST=127.0.0.1
-DB_PORT=5432
